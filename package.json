@@ -1,6 +1,7 @@
 {
-  "name": "tonal-workspace",
-  "private": true,
+  "name": "goldovsky-tonal",
+  "version": "0.0.1",
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
