@@ -1,9 +1,9 @@
-import { detect } from "./../../chord-detect";
+import { detect } from "./../chord-detect";
 import {
   all as chordTypes,
   ChordType,
   get as getChordType,
-} from "./../../chord-type";
+} from "./../chord-type";
 
 import {
   deprecate,
@@ -12,12 +12,12 @@ import {
   NoteName,
   tokenizeNote,
   transpose as transposeNote,
-} from "./../../core";
+} from "./../core";
 
-import { isSubsetOf, isSupersetOf } from "./../../pcset";
+import { isSubsetOf, isSupersetOf } from "./../pcset";
 
-import { all as scaleTypes } from "./../../scale-type";
-export { detect } from "./../../chord-detect";
+import { all as scaleTypes } from "./../scale-type";
+export { detect } from "./../chord-detect";
 
 type ChordName = string;
 type ChordNameTokens = [string, string]; // [TONIC, SCALE TYPE]

@@ -1,4 +1,4 @@
-import { distance as dist, note, transpose as tr } from "./../../core";
+import { distance as dist, note, transpose as tr } from "./../core";
 
 const fillStr = (character: string, times: number) =>
   Array(times + 1).join(character);

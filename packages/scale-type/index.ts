@@ -1,11 +1,11 @@
-import { deprecate } from "./../../core";
+import { deprecate } from "./../core";
 import {
   EmptyPcset,
   get as pcset,
   Pcset,
   PcsetChroma,
   PcsetNum,
-} from "./../../pcset";
+} from "./../pcset";
 import data from "./data";
 
 /**

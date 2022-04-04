@@ -9,13 +9,13 @@ import {
   PitchClass,
   Pitch,
   PitchCoordinates,
-} from "./../../pitch";
+} from "./../pitch";
 import {
   parser,
   tokenizer,
   toName,
   PitchTokens,
-} from "./../../pitch-notation";
+} from "./../pitch-notation";
 
 // TOKENIZE
 type PitchScientificTokens = PitchTokens & {

@@ -1,4 +1,4 @@
-# goldovsky-tone/time-signature ![tonal](https://img.shields.io/badge/@tonaljs-time_signature-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/time-signature.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/time-signature)
+# goldovsky-tone/time-signature ![tonal](https://img.shields.io/badge/goldovsky-tone-time_signature-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/time-signature.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/time-signature)
 
 > Functions to parse time signatures
 

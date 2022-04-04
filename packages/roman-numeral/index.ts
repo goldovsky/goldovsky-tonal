@@ -7,7 +7,7 @@ import {
   isPitch,
   Named,
   Pitch,
-} from "./../../core";
+} from "./../core";
 
 export interface RomanNumeral extends Pitch, Named {
   readonly empty: boolean;

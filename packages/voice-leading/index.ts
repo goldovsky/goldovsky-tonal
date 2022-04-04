@@ -1,4 +1,4 @@
-import Note from "./../../note";
+import Note from "./../note";
 
 // A function that decides which of a set of voicings is picked as a follow up to lastVoicing.
 export declare type VoiceLeadingFunction = (

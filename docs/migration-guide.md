@@ -21,7 +21,7 @@ The new features are:
 
 Unfortunately there are a lot of breaking changes:
 
-### tonal is published under `@tonaljs` namespace
+### tonal is published under `goldovsky-tone` namespace
 
 To avoid mistakes (and have a better npm home) from v3 the npm packages are namespaced.
 

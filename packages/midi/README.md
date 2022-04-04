@@ -1,4 +1,4 @@
-# goldovsky-tone/midi ![tonal](https://img.shields.io/badge/@tonaljs-midi-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/midi.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/midi)
+# goldovsky-tone/midi ![tonal](https://img.shields.io/badge/goldovsky-tone-midi-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/midi.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/midi)
 
 > A collection of functions to work with midi numbers.
 

@@ -1,8 +1,8 @@
-import { rotate } from "./../../collection";
-import { deprecate, Named, NoteName, transpose } from "./../../core";
-import { simplify, transposeFifths } from "./../../interval";
-import { EmptyPcset, Pcset } from "./../../pcset";
-import { get as getType } from "./../../scale-type";
+import { rotate } from "./../collection";
+import { deprecate, Named, NoteName, transpose } from "./../core";
+import { simplify, transposeFifths } from "./../interval";
+import { EmptyPcset, Pcset } from "./../pcset";
+import { get as getType } from "./../scale-type";
 
 const MODES = [
   [0, 2773, 0, "ionian", "", "Maj7", "major"],

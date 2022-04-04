@@ -1,6 +1,6 @@
 # goldovsky-tone/scale [![npm version](https://img.shields.io/npm/v/goldovsky-tone/scale.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/scale)
 
-[![tonal](https://img.shields.io/badge/@tonaljs-scale-yellow.svg?style=flat-square)](https://www.npmjs.com/browse/keyword/tonal)
+[![tonal](https://img.shields.io/badge/goldovsky-tone-scale-yellow.svg?style=flat-square)](https://www.npmjs.com/browse/keyword/tonal)
 
 `goldovsky-tone/scale` is a collection of functions to create and manipulate musical scales
 

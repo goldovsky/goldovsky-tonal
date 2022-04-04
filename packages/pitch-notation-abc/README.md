@@ -1,4 +1,4 @@
-# goldovsky-tone/pitch-notation-abc ![tonal](https://img.shields.io/badge/@tonaljs-pitch_notation_abc-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/pitch-notation-abc.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/pitch-notation-scientific)
+# goldovsky-tone/pitch-notation-abc ![tonal](https://img.shields.io/badge/goldovsky-tone-pitch_notation_abc-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/pitch-notation-abc.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/pitch-notation-scientific)
 
 > Parse note names in ABC notation
 

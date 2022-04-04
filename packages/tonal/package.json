@@ -1,7 +1,7 @@
 {
   "name": "goldovsky-tone/tonal",
   "version": "4.6.5",
-  "description": "@tonaljs music theory full library",
+  "description": "goldovsky-tone music theory full library",
   "keywords": [
     "music",
     "theory",

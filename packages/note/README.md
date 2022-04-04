@@ -1,4 +1,4 @@
-# goldovsky-tone/note ![tonal](https://img.shields.io/badge/@tonaljs-note-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/note.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/note)
+# goldovsky-tone/note ![tonal](https://img.shields.io/badge/goldovsky-tone-note-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/note.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/note)
 
 > A collection of functions to manipulate musical notes
 

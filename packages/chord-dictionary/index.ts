@@ -1,2 +1,2 @@
-export * from "./../../chord-type";
-export { default } from "./../../chord-type";
+export * from "./../chord-type";
+export { default } from "./../chord-type";

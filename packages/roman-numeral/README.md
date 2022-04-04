@@ -1,4 +1,4 @@
-# goldovsky-tone/roman-numeral ![tonal](https://img.shields.io/badge/@tonaljs-roman_numeral-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/roman-numeral.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/roman-numeral)
+# goldovsky-tone/roman-numeral ![tonal](https://img.shields.io/badge/goldovsky-tone-roman_numeral-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/roman-numeral.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/roman-numeral)
 
 > Functions to parse roman numeral strings (like the ones used for chord analysis)
 

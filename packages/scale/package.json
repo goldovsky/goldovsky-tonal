@@ -7,7 +7,7 @@
     "scales",
     "music",
     "theory",
-    "@tonaljs"
+    "goldovsky-tone"
   ],
   "main": "dist/index.js",
   "module": "dist/index.es.js",

@@ -1,4 +1,4 @@
-# goldovsky-tone/chord-type ![tonal](https://img.shields.io/badge/@tonaljs-chord_type-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/chord-type.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/chord-type)
+# goldovsky-tone/chord-type ![tonal](https://img.shields.io/badge/goldovsky-tone-chord_type-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/chord-type.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/chord-type)
 
 > A dictionary of musical chords.
 

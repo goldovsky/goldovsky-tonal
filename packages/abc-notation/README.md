@@ -1,4 +1,4 @@
-# goldovsky-tone/abc-notation ![tonal](https://img.shields.io/badge/@tonaljs-abc_notation-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/abc-notation.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/abc-notation)
+# goldovsky-tone/abc-notation ![tonal](https://img.shields.io/badge/goldovsky-tone-abc_notation-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/abc-notation.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/abc-notation)
 
 > Convert note names between scientific and abc notation
 

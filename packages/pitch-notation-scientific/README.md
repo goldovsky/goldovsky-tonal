@@ -1,4 +1,4 @@
-# goldovsky-tone/pitch-notation-scientific ![tonal](https://img.shields.io/badge/@tonaljs-pitch_notation_scientific-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/pitch-notation-scientific.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/pitch-notation-scientific)
+# goldovsky-tone/pitch-notation-scientific ![tonal](https://img.shields.io/badge/goldovsky-tone-pitch_notation_scientific-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/pitch-notation-scientific.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/pitch-notation-scientific)
 
 > Parse note names in scientific notation
 

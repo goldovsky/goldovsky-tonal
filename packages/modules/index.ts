@@ -1,1 +1,1 @@
-export * from "./../../tonal";
+export * from "./../tonal";

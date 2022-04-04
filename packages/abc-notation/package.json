@@ -20,7 +20,7 @@
     "notation",
     "music",
     "theory",
-    "@tonaljs"
+    "goldovsky-tone"
   ],
   "author": "danigb@gmail.com",
   "license": "MIT",

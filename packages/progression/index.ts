@@ -1,6 +1,6 @@
-import { tokenize } from "./../../chord";
-import { distance, interval, NoteLiteral, transpose } from "./../../core";
-import { get as romanNumeral } from "./../../roman-numeral";
+import { tokenize } from "./../chord";
+import { distance, interval, NoteLiteral, transpose } from "./../core";
+import { get as romanNumeral } from "./../roman-numeral";
 
 /**
  * Given a tonic and a chord list expressed with roman numeral notation

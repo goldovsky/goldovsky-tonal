@@ -8,8 +8,8 @@ import {
   NoteName,
   Pitch,
   transpose as _tr,
-} from "./../../core";
-import { midiToNoteName, freqToMidi } from "./../../midi";
+} from "./../core";
+import { midiToNoteName, freqToMidi } from "./../midi";
 
 const NAMES = ["C", "D", "E", "F", "G", "A", "B"];
 
@@ -165,7 +165,7 @@ export const trFrom = transposeFrom;
  * @return {string} the transposed note name
  *
  * @example
- * import { transposeFifths } from "./../../note"
+ * import { transposeFifths } from "./../note"
  * transposeFifths("G4", 1) // => "D"
  * [0, 1, 2, 3, 4].map(fifths => transposeFifths("C", fifths)) // => ["C", "G", "D", "A", "E"]
  */

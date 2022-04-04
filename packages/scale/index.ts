@@ -3,17 +3,17 @@
  * - https://www.researchgate.net/publication/327567188_An_Algorithm_for_Spelling_the_Pitches_of_Any_Musical_Scale
  * @module scale
  */
-import { all as chordTypes } from "./../../chord-type";
-import { rotate, range as nums } from "./../../collection";
-import { deprecate, note, NoteName, transpose } from "./../../core";
-import { sortedUniqNames, fromMidi, enharmonic } from "./../../note";
-import { isSubsetOf, isSupersetOf, modes } from "./../../pcset";
+import { all as chordTypes } from "./../chord-type";
+import { rotate, range as nums } from "./../collection";
+import { deprecate, note, NoteName, transpose } from "./../core";
+import { sortedUniqNames, fromMidi, enharmonic } from "./../note";
+import { isSubsetOf, isSupersetOf, modes } from "./../pcset";
 import {
   all as scaleTypes,
   get as getScaleType,
   names as scaleTypeNames,
   ScaleType,
-} from "./../../scale-type";
+} from "./../scale-type";
 
 type ScaleName = string;
 type ScaleNameTokens = [string, string]; // [TONIC, SCALE TYPE]

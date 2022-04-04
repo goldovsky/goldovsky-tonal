@@ -1,4 +1,4 @@
-import { note, Note } from "./../../core";
+import { note, Note } from "./../core";
 
 const isArray = Array.isArray;
 

@@ -1,6 +1,6 @@
-import { accToAlt, altToAcc, note, transpose } from "./../../core";
-import { transposeFifths } from "./../../note";
-import { get as roman } from "./../../roman-numeral";
+import { accToAlt, altToAcc, note, transpose } from "./../core";
+import { transposeFifths } from "./../note";
+import { get as roman } from "./../roman-numeral";
 
 const Empty: readonly string[] = Object.freeze([] as string[]);
 

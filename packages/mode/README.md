@@ -1,4 +1,4 @@
-# goldovsky-tone/mode ![tonal](https://img.shields.io/badge/@tonaljs-mode-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/mode.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/mode)
+# goldovsky-tone/mode ![tonal](https://img.shields.io/badge/goldovsky-tone-mode-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/mode.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/mode)
 
 `goldovsky-tone/mode` greek modes dictionary
 
