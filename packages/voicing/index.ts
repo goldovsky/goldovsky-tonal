@@ -1,9 +1,9 @@
-import Chord from "@tonaljs/chord";
-import Note from "@tonaljs/note";
-import Range from "@tonaljs/range";
-import Interval from "@tonaljs/interval";
-import VoicingDictionary from "@tonaljs/voicing-dictionary";
-import VoiceLeading from "@tonaljs/voice-leading";
+import Chord from "./../../chord";
+import Note from "./../../note";
+import Range from "./../../range";
+import Interval from "./../../interval";
+import VoicingDictionary from "./../../voicing-dictionary";
+import VoiceLeading from "./../../voice-leading";
 
 const defaultRange = ["C3", "C5"];
 const defaultDictionary = VoicingDictionary.all;

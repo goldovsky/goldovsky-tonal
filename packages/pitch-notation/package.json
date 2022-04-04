@@ -1,5 +1,5 @@
 {
-  "name": "@tonaljs/pitch-notation",
+  "name": "goldovsky-tone/pitch-notation",
   "version": "4.6.2",
   "private": true,
   "description": "Create different pitch notations",
@@ -12,7 +12,7 @@
     "build": "rollup -c=../../rollup.config.js"
   },
   "dependencies": {
-    "@tonaljs/pitch": "^4.6.2"
+    "goldovsky-tone/pitch": "^4.6.2"
   },
   "main": "dist/index.js",
   "module": "dist/index.es.js",

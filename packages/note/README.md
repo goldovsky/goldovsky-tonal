@@ -1,4 +1,4 @@
-# @tonaljs/note ![tonal](https://img.shields.io/badge/@tonaljs-note-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/@tonaljs/note.svg?style=flat-square)](https://www.npmjs.com/package/@tonaljs/note)
+# goldovsky-tone/note ![tonal](https://img.shields.io/badge/@tonaljs-note-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/note.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/note)
 
 > A collection of functions to manipulate musical notes
 
@@ -7,13 +7,13 @@
 ES6:
 
 ```js
-import { Note } from "@tonaljs/tonal";
+import { Note } from "./../../tonal";
 ```
 
 nodejs:
 
 ```js
-const { Note } = require("@tonaljs/tonal");
+const { Note } = require("goldovsky-tone/tonal");
 ```
 
 ## API
@@ -55,7 +55,7 @@ Note.chroma("D"); // => 2
 
 #### `Note.fromMidi(midi: number) => string`
 
-Given a midi number, returns the note name. This function is the same as `midiToNoteName` from [@tonaljs/midi](/packages/midi)
+Given a midi number, returns the note name. This function is the same as `midiToNoteName` from [goldovsky-tone/midi](/packages/midi)
 
 ```js
 Note.fromMidi(61); // => "Db4"

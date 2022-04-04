@@ -1,17 +1,17 @@
-# @tonaljs/chord ![tonal](https://img.shields.io/badge/@tonaljs-chord-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/@tonaljs/chord.svg?style=flat-square)](https://www.npmjs.com/package/@tonaljs/chord)
+# goldovsky-tone/chord ![tonal](https://img.shields.io/badge/@tonaljs-chord-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/chord.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/chord)
 
 ## Usage
 
 ES6:
 
 ```js
-import { Chord } from "@tonaljs/tonal";
+import { Chord } from "./../../tonal";
 ```
 
 Nodejs:
 
 ```js
-const { Chord } = require("@tonaljs/tonal");
+const { Chord } = require("goldovsky-tone/tonal");
 ```
 
 ## API

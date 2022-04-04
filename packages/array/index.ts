@@ -1,4 +1,4 @@
-import { note, Note } from "@tonaljs/core";
+import { note, Note } from "./../../core";
 
 const isArray = Array.isArray;
 

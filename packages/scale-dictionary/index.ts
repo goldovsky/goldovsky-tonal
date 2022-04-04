@@ -1,2 +1,2 @@
-export * from "@tonaljs/scale-type";
-export { default } from "@tonaljs/scale-type";
+export * from "./../../scale-type";
+export { default } from "./../../scale-type";

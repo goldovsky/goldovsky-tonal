@@ -1,4 +1,4 @@
-# @tonaljs/collection ![tonal](https://img.shields.io/badge/@tonaljs-collection-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/@tonaljs/collection.svg?style=flat-square)](https://www.npmjs.com/package/@tonaljs/collection)
+# goldovsky-tone/collection ![tonal](https://img.shields.io/badge/@tonaljs-collection-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/collection.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/collection)
 
 > Functions to create and manipulate collections (collections)
 
@@ -7,13 +7,13 @@
 ES6:
 
 ```js
-import { Collection } from "@tonaljs/tonal";
+import { Collection } from "./../../tonal";
 ```
 
 node:
 
 ```js
-const { Collection } = require("@tonaljs/tonal");
+const { Collection } = require("goldovsky-tone/tonal");
 ```
 
 ## API

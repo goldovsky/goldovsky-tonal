@@ -10,7 +10,7 @@ import {
 
 const $ = (arr: string) => arr.split(" ");
 
-describe("@tonaljs/array", () => {
+describe("goldovsky-tone/array", () => {
   test("range", () => {
     expect(range(-2, 2)).toEqual([-2, -1, 0, 1, 2]);
     expect(range(2, -2)).toEqual([2, 1, 0, -1, -2]);

@@ -5,10 +5,10 @@ import {
   abcToScientificNotation,
   scientificToAbcNotation,
 } from "./index";
-import { Notation } from "@tonaljs/pitch-notation";
-import Scientific from "@tonaljs/pitch-notation-scientific";
+import { Notation } from "./../../pitch-notation";
+import Scientific from "./../../pitch-notation-scientific";
 
-describe("@tonaljs/pitch-notation-abc", () => {
+describe("goldovsky-tone/pitch-notation-abc", () => {
   test("conforms notation interface", () => {
     const notation: Notation = {
       tokenize,

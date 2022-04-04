@@ -2,7 +2,7 @@ import Progression from "./index";
 
 const $ = (str: string) => str.split(" ");
 
-describe("@tonaljs/progression", () => {
+describe("goldovsky-tone/progression", () => {
   test("concrete", () => {
     const inC = (chords: string[]) =>
       Progression.fromRomanNumerals("C", chords);

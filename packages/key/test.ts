@@ -1,7 +1,7 @@
 // tslint:disable-next-line: no-implicit-dependencies
-import { get as scale } from "@tonaljs/scale";
+import { get as scale } from "./../../scale";
 // tslint:disable-next-line: no-implicit-dependencies
-import { get as chord } from "@tonaljs/chord";
+import { get as chord } from "./../../chord";
 import Key from "./index";
 
 describe("@tonal/key", () => {

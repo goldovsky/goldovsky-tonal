@@ -1,4 +1,4 @@
-import { modes } from "@tonaljs/pcset";
+import { modes } from "./../../pcset";
 import ScaleType from "./index";
 
 describe("gets dictionary", () => {

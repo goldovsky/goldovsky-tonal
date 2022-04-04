@@ -1,5 +1,5 @@
 {
-  "name": "@tonaljs/modules",
+  "name": "goldovsky-tone/modules",
   "version": "4.6.5",
   "description": "deprecated",
   "keywords": [],
@@ -10,7 +10,7 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@tonaljs/tonal": "^4.6.5"
+    "goldovsky-tone/tonal": "^4.6.5"
   },
   "author": "danigb@gmail.com",
   "license": "MIT",

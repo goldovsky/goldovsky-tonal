@@ -1,12 +1,12 @@
 {
-  "name": "@tonaljs/mode",
+  "name": "goldovsky-tone/mode",
   "version": "4.6.5",
   "description": "Functions to work with musical modes",
   "keywords": [
     "mode",
     "music",
     "theory",
-    "@tonaljs/core"
+    "goldovsky-tone/core"
   ],
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -15,11 +15,11 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@tonaljs/collection": "^4.6.2",
-    "@tonaljs/core": "^4.6.5",
-    "@tonaljs/interval": "^4.6.5",
-    "@tonaljs/pcset": "^4.6.5",
-    "@tonaljs/scale-type": "^4.6.5"
+    "goldovsky-tone/collection": "^4.6.2",
+    "goldovsky-tone/core": "^4.6.5",
+    "goldovsky-tone/interval": "^4.6.5",
+    "goldovsky-tone/pcset": "^4.6.5",
+    "goldovsky-tone/scale-type": "^4.6.5"
   },
   "author": "danigb@gmail.com",
   "license": "MIT",

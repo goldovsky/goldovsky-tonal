@@ -2,7 +2,7 @@ import Scale from "./index";
 
 const $ = (s: string) => s.split(" ");
 
-describe("@tonaljs/scale", () => {
+describe("goldovsky-tone/scale", () => {
   test("scale", () => {
     expect(Scale.get("major")).toEqual({
       empty: false,

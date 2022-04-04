@@ -1,6 +1,6 @@
 # tonal
 
-[![npm version](https://img.shields.io/npm/v/@tonaljs/tonal.svg?style=flat-square)](https://www.npmjs.com/package/@tonaljs/tonal)
+[![npm version](https://img.shields.io/npm/v/goldovsky-tone/tonal.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/tonal)
 [![build status](https://img.shields.io/github/workflow/status/tonaljs/tonal/tests?style=flat-square)](https://github.com/tonaljs/tonal/actions)
 ![minified size](https://img.shields.io/badge/minified-32.94kb-blue?style=flat-square)
 ![gzipped size](https://img.shields.io/badge/gzipped-11.01kb-blue?style=flat-square)
@@ -18,7 +18,7 @@ mutation, and entities are represented by data structures instead of objects.
 ## Example
 
 ```js
-import { Interval, Note, Scale } from "@tonaljs/tonal";
+import { Interval, Note, Scale } from "goldovsky-tone/tonal";
 
 Note.midi("A4"); // => 60
 Note.freq("a4").freq; // => 440
@@ -34,7 +34,7 @@ Scale.get("C major").notes; // =>["C", "D", "E", "F", "G", "A", "B"];
 Install all packages at once:
 
 ```bash
-npm install --save @tonaljs/tonal
+npm install --save goldovsky-tone/tonal
 ```
 
 ## Usage
@@ -44,13 +44,13 @@ Tonal is compatible with both ES5 and ES6 modules, and browser.
 #### ES6 `import`:
 
 ```js
-import { Note, Scale } from "@tonaljs/tonal";
+import { Note, Scale } from "goldovsky-tone/tonal";
 ```
 
 #### ES5 `require`:
 
 ```js
-const { Note, Scale } = require("@tonaljs/tonal");
+const { Note, Scale } = require("goldovsky-tone/tonal");
 ```
 
 #### Browser
@@ -58,7 +58,7 @@ const { Note, Scale } = require("@tonaljs/tonal");
 You can use the browser version from jsdelivr CDN directly in your html:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@tonaljs/tonal/browser/tonal.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/goldovsky-tone/tonal/browser/tonal.min.js"></script>
 <script>
   console.log(Tonal.Key.minorKey("Ab"));
 </script>
@@ -70,18 +70,18 @@ from the repository.
 
 #### Bundle size
 
-`@tonaljs/tonal` includes all published modules.
+`goldovsky-tone/tonal` includes all published modules.
 
 Although the final bundle it is small (~10kb minified and gzipped), you can
 reduce bundle sizes even more by installing the modules individually, and
 importing only the functions you need:
 
 ```bash
-npm i @tonaljs/note
+npm i goldovsky-tone/note
 ```
 
 ```js
-import { transpose } from "@tonaljs/note";
+import { transpose } from "goldovsky-tone/note";
 transpose("A4", "P5");
 ```
 
@@ -89,48 +89,48 @@ transpose("A4", "P5");
 
 Generally, you just need to install:
 
-- [@tonaljs/tonal](/packages/tonal): All modules bundled in one package
+- [goldovsky-tone/tonal](/packages/tonal): All modules bundled in one package
 
 The API documentation lives inside README.md file of each module
 
 #### Notes and intervals
 
-- [@tonaljs/note](/packages/note): Note operations (simplify, transposeBy )
-- [@tonaljs/midi](/packages/midi): Midi number conversions
-- [@tonaljs/interval](/packages/interval): Interval operations (add, simplify,
+- [goldovsky-tone/note](/packages/note): Note operations (simplify, transposeBy )
+- [goldovsky-tone/midi](/packages/midi): Midi number conversions
+- [goldovsky-tone/interval](/packages/interval): Interval operations (add, simplify,
   invert)
-- [@tonaljs/pitch-notation-abc](/packages/pitch-notation-abc): Parse ABC
+- [goldovsky-tone/pitch-notation-abc](/packages/pitch-notation-abc): Parse ABC
   notation notes
 
 #### Scales and chords
 
-- [@tonaljs/scale](/packages/scale): Scales
-- [@tonaljs/scale-type](/packages/scale-type): A dictionary of scales
-- [@tonaljs/chord](/packages/chord): Chords
-- [@tonaljs/chord-type](/packages/chord-type): A dictionary of chords
-- [@tonaljs/chord-detect](/packages/chord-detect): Detect chords from notes
-- [@tonaljs/pcset](/packages/pcset): Pitch class sets. Compare note groups.
+- [goldovsky-tone/scale](/packages/scale): Scales
+- [goldovsky-tone/scale-type](/packages/scale-type): A dictionary of scales
+- [goldovsky-tone/chord](/packages/chord): Chords
+- [goldovsky-tone/chord-type](/packages/chord-type): A dictionary of chords
+- [goldovsky-tone/chord-detect](/packages/chord-detect): Detect chords from notes
+- [goldovsky-tone/pcset](/packages/pcset): Pitch class sets. Compare note groups.
 
 #### Keys, chord progressions
 
-- [@tonaljs/key](/packages/key): Major and minor keys, it's scales and chords
-- [@tonaljs/mode](/packages/mode): A dictionary of Greek modes (ionian,
+- [goldovsky-tone/key](/packages/key): Major and minor keys, it's scales and chords
+- [goldovsky-tone/mode](/packages/mode): A dictionary of Greek modes (ionian,
   dorian...)
-- [@tonaljs/progression](/packages/progression): Chord progressions
-- [@tonaljs/roman-numeral](/packages/roman-numeral): Parse roman numeral symbols
+- [goldovsky-tone/progression](/packages/progression): Chord progressions
+- [goldovsky-tone/roman-numeral](/packages/roman-numeral): Parse roman numeral symbols
 
 #### Time, rhythm
 
-- [@tonaljs/time-signature](/packages/time-signature): Parse time signatures
-- [@tonaljs/duration-value](/packages/duration-value): Note duration values
+- [goldovsky-tone/time-signature](/packages/time-signature): Parse time signatures
+- [goldovsky-tone/duration-value](/packages/duration-value): Note duration values
 
 #### Utilities
 
-- [@tonaljs/core](/packages/core): Core functions (note, interval, transpose and
+- [goldovsky-tone/core](/packages/core): Core functions (note, interval, transpose and
   distance)
-- [@tonaljs/collection](/packages/collection): Utility functions to work with
+- [goldovsky-tone/collection](/packages/collection): Utility functions to work with
   collections (range, shuffle, permutations)
-- [@tonaljs/range](/packages/range): Create note ranges
+- [goldovsky-tone/range](/packages/range): Create note ranges
 
 ## Contributing
 

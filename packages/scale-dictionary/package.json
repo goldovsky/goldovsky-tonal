@@ -1,5 +1,5 @@
 {
-  "name": "@tonaljs/scale-dictionary",
+  "name": "goldovsky-tone/scale-dictionary",
   "version": "4.6.5",
   "description": "A dictionary of musical scales",
   "keywords": [],
@@ -10,7 +10,7 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@tonaljs/scale-type": "^4.6.5"
+    "goldovsky-tone/scale-type": "^4.6.5"
   },
   "author": "danigb@gmail.com",
   "license": "MIT",

@@ -1,4 +1,4 @@
-# @tonaljs/chord-type ![tonal](https://img.shields.io/badge/@tonaljs-chord_type-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/@tonaljs/chord-type.svg?style=flat-square)](https://www.npmjs.com/package/@tonaljs/chord-type)
+# goldovsky-tone/chord-type ![tonal](https://img.shields.io/badge/@tonaljs-chord_type-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/chord-type.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/chord-type)
 
 > A dictionary of musical chords.
 
@@ -7,13 +7,13 @@
 ES6:
 
 ```js
-import { ChordType } from "@tonaljs/tonal";
+import { ChordType } from "./../../tonal";
 ```
 
 node:
 
 ```js
-const { ChordType } = require("@tonaljs/tonal");
+const { ChordType } = require("goldovsky-tone/tonal");
 ```
 
 ## API

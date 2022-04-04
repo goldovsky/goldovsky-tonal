@@ -1,4 +1,4 @@
-# @tonaljs/voicing
+# goldovsky-tone/voicing
 
 Contains functions to generate voicings. If you're not sure what voicings are, [watch this video](https://www.youtube.com/watch?v=VR3o45Pwx9Y).
 
@@ -7,13 +7,13 @@ Contains functions to generate voicings. If you're not sure what voicings are, [
 ES6:
 
 ```js
-import { Voicing } from '@tonaljs/tonal';
+import { Voicing } from './../../tonal';
 ```
 
 Nodejs:
 
 ```js
-const { Voicing } = require('@tonaljs/tonal');
+const { Voicing } = require('goldovsky-tone/tonal');
 ```
 
 ## API
@@ -35,10 +35,10 @@ Voicing.search('C^7', ['E3', 'D5'], { '^7': ['3M 5P 7M 9M', '7M 9M 10M 12P'] });
 ] */
 ```
 
-The VoicingDictionary param uses the format of [@tonaljs/voicing-dictionary](../voicing-dictionary). Instead of defining your own, you could also use an existing dictionary from there:
+The VoicingDictionary param uses the format of [goldovsky-tone/voicing-dictionary](../voicing-dictionary). Instead of defining your own, you could also use an existing dictionary from there:
 
 ```ts
-import { VoicingDictionary } from '@tonaljs/voicing-dictionary';
+import { VoicingDictionary } from './../../voicing-dictionary';
 Voicing.search('C^7', ['E3', 'D5'], VoicingDictionary.lefthand);
 /* => [
   ['E3', 'G3', 'B3', 'D4'],

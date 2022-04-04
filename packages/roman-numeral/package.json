@@ -1,5 +1,5 @@
 {
-  "name": "@tonaljs/roman-numeral",
+  "name": "goldovsky-tone/roman-numeral",
   "version": "4.6.5",
   "description": "Parse and properties of roman numeral strings",
   "keywords": [
@@ -7,7 +7,7 @@
     "music",
     "analysis",
     "theory",
-    "@tonaljs/core"
+    "goldovsky-tone/core"
   ],
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -16,7 +16,7 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@tonaljs/core": "^4.6.5"
+    "goldovsky-tone/core": "^4.6.5"
   },
   "author": "danigb@gmail.com",
   "license": "MIT",

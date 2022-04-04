@@ -1,6 +1,6 @@
 import * as Tonal from "./index";
 
-describe("@tonaljs/tonal", () => {
+describe("goldovsky-tone/tonal", () => {
   test("exported modules and functions", () => {
     const exportedNames = Object.keys(Tonal).sort();
     expect(exportedNames).toEqual([

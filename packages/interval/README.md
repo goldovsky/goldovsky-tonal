@@ -1,4 +1,4 @@
-# @tonaljs/interval ![tonal](https://img.shields.io/badge/@tonaljs-interval-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/@tonaljs/interval.svg?style=flat-square)](https://www.npmjs.com/package/@tonaljs/interval)
+# goldovsky-tone/interval ![tonal](https://img.shields.io/badge/@tonaljs-interval-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/interval.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/interval)
 
 > A collection of functions to create and manipulate music intervals
 
@@ -7,13 +7,13 @@
 ES6:
 
 ```js
-import { Interval } from "@tonaljs/tonal";
+import { Interval } from "./../../tonal";
 ```
 
 nodejs:
 
 ```js
-const { Interval } = require("@tonaljs/tonal");
+const { Interval } = require("goldovsky-tone/tonal");
 ```
 
 ## API

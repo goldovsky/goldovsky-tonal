@@ -1,4 +1,4 @@
-# @tonaljs/roman-numeral ![tonal](https://img.shields.io/badge/@tonaljs-roman_numeral-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/@tonaljs/roman-numeral.svg?style=flat-square)](https://www.npmjs.com/package/@tonaljs/roman-numeral)
+# goldovsky-tone/roman-numeral ![tonal](https://img.shields.io/badge/@tonaljs-roman_numeral-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/roman-numeral.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/roman-numeral)
 
 > Functions to parse roman numeral strings (like the ones used for chord analysis)
 
@@ -9,13 +9,13 @@ A roman numeral symbol is a string like `"bVIImaj7"` that can be used to represe
 ES6:
 
 ```js
-import { RomanNumeral } from "@tonaljs/tonal";
+import { RomanNumeral } from "./../../tonal";
 ```
 
 node:
 
 ```js
-const { RomanNumeral } = require("@tonaljs/tonal");
+const { RomanNumeral } = require("goldovsky-tone/tonal");
 ```
 
 ## API
@@ -49,7 +49,7 @@ RomanNumeral.get("bVIIMaj7");
 `romanNumeral` function accepts a `Pitch` as argument:
 
 ```js
-import { Interval, RomanNumeral } from "@tonaljs/tonal";
+import { Interval, RomanNumeral } from "./../../tonal";
 
 RomanNumeral.get(Interval.get("3m")).name; // => "bIII"
 ```

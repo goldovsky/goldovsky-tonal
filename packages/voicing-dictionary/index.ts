@@ -1,4 +1,4 @@
-import Chord from "@tonaljs/chord";
+import Chord from "./../../chord";
 import { lefthand, all, triads } from "./data";
 
 export declare type VoicingDictionary = { [symbol: string]: string[] };

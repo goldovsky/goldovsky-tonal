@@ -1,6 +1,6 @@
 import { fillStr } from "../index";
 
-describe("@tonaljs/core", () => {
+describe("goldovsky-tone/core", () => {
   test("fillStr", () => {
     expect(fillStr("#", 5)).toEqual("#####");
   });

@@ -1,19 +1,19 @@
-# @tonaljs/voicing-dictionary
+# goldovsky-tone/voicing-dictionary
 
-Contains dictionaries for many chord voicings. Used by [@tonaljs/voicings](../voicings).
+Contains dictionaries for many chord voicings. Used by [goldovsky-tone/voicings](../voicings).
 
 ## Usage
 
 ES6:
 
 ```js
-import { VoicingDictionary } from '@tonaljs/tonal';
+import { VoicingDictionary } from './../../tonal';
 ```
 
 Nodejs:
 
 ```js
-const { VoicingDictionary } = require('@tonaljs/tonal');
+const { VoicingDictionary } = require('goldovsky-tone/tonal');
 ```
 
 ## API
@@ -41,4 +41,4 @@ const lefthand = {
 
 [show available dictionaries](./data.ts).
 
-See [@tonaljs/voicings](../voicings) for usage examples.
+See [goldovsky-tone/voicings](../voicings) for usage examples.

@@ -2,7 +2,7 @@ import Collection from "./index";
 
 const $ = (arr: string) => arr.split(" ");
 
-describe("@tonaljs/collection", () => {
+describe("goldovsky-tone/collection", () => {
   test("range", () => {
     expect(Collection.range(-2, 2)).toEqual([-2, -1, 0, 1, 2]);
     expect(Collection.range(2, -2)).toEqual([2, 1, 0, -1, -2]);

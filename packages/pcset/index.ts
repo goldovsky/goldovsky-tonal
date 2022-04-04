@@ -1,4 +1,4 @@
-import { compact, range, rotate } from "@tonaljs/collection";
+import { compact, range, rotate } from "./../../collection";
 import {
   deprecate,
   Interval,
@@ -9,7 +9,7 @@ import {
   Note,
   NoteName,
   NotFound,
-} from "@tonaljs/core";
+} from "./../../core";
 
 /**
  * The properties of a pitch class set

@@ -1,6 +1,6 @@
 import AbcNotation from "./index";
 
-describe("@tonaljs/abc-notation", () => {
+describe("goldovsky-tone/abc-notation", () => {
   test("tokenize", () => {
     expect(AbcNotation.tokenize("C,',")).toEqual(["", "C", ",',"]);
     expect(AbcNotation.tokenize("g,,'")).toEqual(["", "g", ",,'"]);

@@ -1,5 +1,5 @@
-import VoicingDictionary from "@tonaljs/voicing-dictionary";
-import { topNoteDiff } from "@tonaljs/voice-leading";
+import VoicingDictionary from "./../../voicing-dictionary";
+import { topNoteDiff } from "./../../voice-leading";
 import Voicing from "./index";
 
 const { lefthand, triads } = VoicingDictionary;

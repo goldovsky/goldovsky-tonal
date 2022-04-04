@@ -1,5 +1,5 @@
 {
-  "name": "@tonaljs/chord",
+  "name": "goldovsky-tone/chord",
   "version": "4.6.5",
   "description": "Musical chords and its relations",
   "keywords": [
@@ -16,12 +16,12 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@tonaljs/chord-detect": "^4.6.5",
-    "@tonaljs/chord-type": "^4.6.5",
-    "@tonaljs/collection": "^4.6.2",
-    "@tonaljs/core": "^4.6.5",
-    "@tonaljs/pcset": "^4.6.5",
-    "@tonaljs/scale-type": "^4.6.5"
+    "goldovsky-tone/chord-detect": "^4.6.5",
+    "goldovsky-tone/chord-type": "^4.6.5",
+    "goldovsky-tone/collection": "^4.6.2",
+    "goldovsky-tone/core": "^4.6.5",
+    "goldovsky-tone/pcset": "^4.6.5",
+    "goldovsky-tone/scale-type": "^4.6.5"
   },
   "author": "danigb@gmail.com",
   "license": "MIT",

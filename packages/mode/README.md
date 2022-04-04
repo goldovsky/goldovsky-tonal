@@ -1,19 +1,19 @@
-# @tonaljs/mode ![tonal](https://img.shields.io/badge/@tonaljs-mode-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/@tonaljs/mode.svg?style=flat-square)](https://www.npmjs.com/package/@tonaljs/mode)
+# goldovsky-tone/mode ![tonal](https://img.shields.io/badge/@tonaljs-mode-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/mode.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/mode)
 
-`@tonaljs/mode` greek modes dictionary
+`goldovsky-tone/mode` greek modes dictionary
 
 ## Usage
 
 ES6:
 
 ```js
-import { Mode } from "@tonaljs/tonal";
+import { Mode } from "./../../tonal";
 ```
 
 node:
 
 ```js
-const { Mode } = require("@tonaljs/tonal");
+const { Mode } = require("goldovsky-tone/tonal");
 ```
 
 ## API
@@ -109,7 +109,7 @@ Mode.relativeTonic("minor", "major", "C"); // => "A"
 For example, "A major" mode:
 
 ```js
-import { Mode, Note } from "@tonaljs/tonal";
+import { Mode, Note } from "./../../tonal";
 
 Mode.get("major").intervals.map(Note.transposeFrom("A"));
 ["A", "B", "C#", "D", "E", "F#", "G#"];

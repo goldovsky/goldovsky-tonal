@@ -1,23 +1,23 @@
-# @tonaljs/chord-detect ![tonal](https://img.shields.io/badge/@tonaljs-chord_detect-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/@tonaljs/chord-detect.svg?style=flat-square)](https://www.npmjs.com/package/@tonaljs/chord-detect)
+# goldovsky-tone/chord-detect ![tonal](https://img.shields.io/badge/@tonaljs-chord_detect-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/chord-detect.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/chord-detect)
 
 ## Usage
 
 With ES6 `import`:
 
 ```js
-import { ChordDetect } from "@tonaljs/tonal";
+import { ChordDetect } from "./../../tonal";
 ```
 
 With ES5 `require`:
 
 ```js
-const { ChordDetect } = require("@tonaljs/tonal");
+const { ChordDetect } = require("goldovsky-tone/tonal");
 ```
 
 Standalone:
 
 ```js
-import { detect } from "@tonaljs/chord-detect";
+import { detect } from "./../../chord-detect";
 ```
 
 ## API

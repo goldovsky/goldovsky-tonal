@@ -6,7 +6,7 @@ import {
   IntervalName,
   NoteCoordinates,
   tokenizeInterval as tokenize,
-} from "@tonaljs/core";
+} from "./../../core";
 
 /**
  * Get the natural list of names

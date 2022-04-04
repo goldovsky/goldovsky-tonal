@@ -1,3 +1,3 @@
 # Deprecated
 
-## Use: [@tonaljs/tonal](/packages/tonal)
+## Use: [goldovsky-tone/tonal](/packages/tonal)

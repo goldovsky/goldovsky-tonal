@@ -41,12 +41,12 @@ export default OUTPUTS.map(output => ({
 }));
 
 function getUmdName(packageName) {
-  if (!packageName.startsWith("@tonaljs/")) {
+  if (!packageName.startsWith("goldovsky-tone/")) {
     throw Error(
-      "Invalid package name. It should start with `@tonaljs/` but was: " +
+      "Invalid package name. It should start with `goldovsky-tone/` but was: " +
         packageName
     );
   }
-  const suffix = packageName.slice("@tonaljs/".length);
+  const suffix = packageName.slice("goldovsky-tone/".length);
   return _.startCase(suffix).replace(" ", "");
 }

@@ -1,4 +1,4 @@
-# @tonaljs/pitch-notation-interval ![tonal](https://img.shields.io/badge/@tonaljs-pitch_notation_interval-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/@tonaljs/pitch-notation-interval.svg?style=flat-square)](https://www.npmjs.com/package/@tonaljs/pitch-notation-interval)
+# goldovsky-tone/pitch-notation-interval ![tonal](https://img.shields.io/badge/@tonaljs-pitch_notation_interval-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/pitch-notation-interval.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/pitch-notation-interval)
 
 > Parse interval names in shorthand notation
 

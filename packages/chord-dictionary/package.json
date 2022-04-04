@@ -1,5 +1,5 @@
 {
-  "name": "@tonaljs/chord-dictionary",
+  "name": "goldovsky-tone/chord-dictionary",
   "version": "4.6.5",
   "description": "A dictionary of musical chords",
   "keywords": [],
@@ -10,7 +10,7 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@tonaljs/chord-type": "^4.6.5"
+    "goldovsky-tone/chord-type": "^4.6.5"
   },
   "author": "danigb@gmail.com",
   "license": "MIT",

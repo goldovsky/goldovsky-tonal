@@ -5,13 +5,13 @@ import {
   coordinates,
   IntervalPitch,
   InvalidPitch,
-} from "@tonaljs/pitch";
+} from "./../../pitch";
 import {
   parser,
   tokenizer,
   toName,
   PitchTokens,
-} from "@tonaljs/pitch-notation";
+} from "./../../pitch-notation";
 
 /* tslint:disable:variable-name */
 

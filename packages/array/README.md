@@ -1,3 +1,3 @@
-# deprecated: @tonaljs/array
+# deprecated: goldovsky-tone/array
 
-Renamed to [`@tonaljs/collection`](/packages/collection)
+Renamed to [`goldovsky-tone/collection`](/packages/collection)

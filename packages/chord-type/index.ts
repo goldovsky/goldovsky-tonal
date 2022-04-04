@@ -1,11 +1,11 @@
-import { deprecate } from "@tonaljs/core";
+import { deprecate } from "./../../core";
 import {
   EmptyPcset,
   get as pcset,
   Pcset,
   PcsetChroma,
   PcsetNum,
-} from "@tonaljs/pcset";
+} from "./../../pcset";
 import data from "./data";
 
 export type ChordQuality =

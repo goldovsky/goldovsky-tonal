@@ -90,7 +90,7 @@ const cache: { [key in string]: Interval | NoInterval } = {};
  * @return {Object} the interval properties
  *
  * @example
- * import { interval } from '@tonaljs/core'
+ * import { interval } from './../../core'
  * interval('P5').semitones // => 7
  * interval('m3').type // => 'majorable'
  */

@@ -6,8 +6,8 @@ Adopt a fixed/locked mode with lerna. Before, each module has it's own version. 
 
 Deprecated modules:
 
-- @tonaljs/modules (use @tonaljs/tonal)
-- @tonaljs/array (use @tonaljs/collection)
+- goldovsky-tone/modules (use goldovsky-tone/tonal)
+- goldovsky-tone/array (use goldovsky-tone/collection)
 
 #### Releases
 

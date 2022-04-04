@@ -1,4 +1,4 @@
-# @tonaljs/time-signature ![tonal](https://img.shields.io/badge/@tonaljs-time_signature-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/@tonaljs/time-signature.svg?style=flat-square)](https://www.npmjs.com/package/@tonaljs/time-signature)
+# goldovsky-tone/time-signature ![tonal](https://img.shields.io/badge/@tonaljs-time_signature-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/time-signature.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/time-signature)
 
 > Functions to parse time signatures
 
@@ -7,19 +7,19 @@
 ES6:
 
 ```js
-import { TimeSignature } from "@tonaljs/tonal";
+import { TimeSignature } from "./../../tonal";
 ```
 
 node:
 
 ```js
-const { TimeSignature } = require("@tonaljs/tonal");
+const { TimeSignature } = require("goldovsky-tone/tonal");
 ```
 
 single module:
 
 ```js
-import TimeSignature from "@tonaljs/time-signature";
+import TimeSignature from "./../../time-signature";
 ```
 
 ## API

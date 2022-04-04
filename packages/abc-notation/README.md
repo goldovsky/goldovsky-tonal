@@ -1,4 +1,4 @@
-# @tonaljs/abc-notation ![tonal](https://img.shields.io/badge/@tonaljs-abc_notation-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/@tonaljs/abc-notation.svg?style=flat-square)](https://www.npmjs.com/package/@tonaljs/abc-notation)
+# goldovsky-tone/abc-notation ![tonal](https://img.shields.io/badge/@tonaljs-abc_notation-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/abc-notation.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/abc-notation)
 
 > Convert note names between scientific and abc notation
 
@@ -7,13 +7,13 @@
 ES6:
 
 ```js
-import { AbcNotation } from "@tonaljs/tonal";
+import { AbcNotation } from "./../../tonal";
 ```
 
 nodejs:
 
 ```js
-const { AbcNotation } = require("@tonaljs/tonal");
+const { AbcNotation } = require("goldovsky-tone/tonal");
 ```
 
 ## API

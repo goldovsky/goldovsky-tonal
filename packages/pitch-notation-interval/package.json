@@ -1,5 +1,5 @@
 {
-  "name": "@tonaljs/pitch-notation-interval",
+  "name": "goldovsky-tone/pitch-notation-interval",
   "version": "4.6.2",
   "private": true,
   "description": "Parse intervals in shorthand notation",
@@ -11,8 +11,8 @@
     "shorthand notation"
   ],
   "dependencies": {
-    "@tonaljs/pitch": "^4.6.2",
-    "@tonaljs/pitch-notation": "^4.6.2"
+    "goldovsky-tone/pitch": "^4.6.2",
+    "goldovsky-tone/pitch-notation": "^4.6.2"
   },
   "scripts": {
     "build": "rollup -c=../../rollup.config.js"

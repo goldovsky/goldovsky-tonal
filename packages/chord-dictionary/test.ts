@@ -1,7 +1,7 @@
 import ChordDictionary from "./index";
-import ChordType from "@tonaljs/chord-type";
+import ChordType from "./../../chord-type";
 
-describe("@tonaljs/chord-dictionary", () => {
+describe("goldovsky-tone/chord-dictionary", () => {
   test("alias of ChordType", () => {
     expect(ChordDictionary).toEqual(ChordType);
   });

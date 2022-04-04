@@ -1,19 +1,19 @@
-# @tonaljs/voice-leading
+# goldovsky-tone/voice-leading
 
-Contains a collection functions to find optimal transitions between chord voicings. Used by [@tonaljs/voicings](../voicings).
+Contains a collection functions to find optimal transitions between chord voicings. Used by [goldovsky-tone/voicings](../voicings).
 
 ## Usage
 
 ES6:
 
 ```js
-import { VoiceLeading } from '@tonaljs/tonal';
+import { VoiceLeading } from './../../tonal';
 ```
 
 Nodejs:
 
 ```js
-const { VoiceLeading } = require('@tonaljs/tonal');
+const { VoiceLeading } = require('goldovsky-tone/tonal');
 ```
 
 ## API
@@ -55,4 +55,4 @@ topNoteDiff(
 
 [show available voice leading functions](./index.ts).
 
-See [@tonaljs/voicings](../voicings) for usage examples.
+See [goldovsky-tone/voicings](../voicings) for usage examples.

@@ -1,4 +1,4 @@
-# @tonaljs/pcset ![tonal](https://img.shields.io/badge/@tonaljs-pcset-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/@tonaljs/pcset.svg?style=flat-square)](https://www.npmjs.com/package/@tonaljs/pcset)
+# goldovsky-tone/pcset ![tonal](https://img.shields.io/badge/@tonaljs-pcset-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/pcset.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/pcset)
 
 > Functions to create and manipulate musical pitch class sets
 
@@ -9,13 +9,13 @@ A pitch class set is a set (no repeated) of pitch classes (notes without octaves
 ES6:
 
 ```js
-import { Pcset } from "@tonaljs/tonal";
+import { Pcset } from "./../../tonal";
 ```
 
 nodejs:
 
 ```js
-const { Pcset } = require("@tonaljs/tonal");
+const { Pcset } = require("goldovsky-tone/tonal");
 ```
 
 ## API
@@ -101,8 +101,8 @@ Take a look to [@tonal/scale-type]() or [@tonal/chord-type]() that are, in fact,
 ##### How do I get a list of all possible music scales?
 
 ```js
-import { chromas, pcset } from "@tonaljs/pcset";
-import { transposeFrom } from "@tonaljs/note";
+import { chromas, pcset } from "./../../pcset";
+import { transposeFrom } from "./../../note";
 
 chromas().map(chroma => pcset(chroma).intervals.map(transposeFrom("C")));
 ```

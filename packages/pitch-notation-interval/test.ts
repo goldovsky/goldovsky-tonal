@@ -1,7 +1,7 @@
 import { parse, name, tokenize } from "./index";
-import { Notation } from "@tonaljs/pitch-notation";
+import { Notation } from "./../../pitch-notation";
 
-describe("@tonaljs/pitch-scientific-notation", () => {
+describe("goldovsky-tone/pitch-scientific-notation", () => {
   test("conforms notation interface", () => {
     const notation: Notation = {
       tokenize,

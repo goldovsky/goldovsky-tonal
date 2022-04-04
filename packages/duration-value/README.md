@@ -1,4 +1,4 @@
-# @tonaljs/duration-value ![tonal](https://img.shields.io/badge/@tonaljs-duration_value-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/@tonaljs/duration-value.svg?style=flat-square)](https://www.npmjs.com/package/@tonaljs/duration-value)
+# goldovsky-tone/duration-value ![tonal](https://img.shields.io/badge/@tonaljs-duration_value-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/duration-value.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/duration-value)
 
 > Functions to parse and manipulate time duration values
 
@@ -7,19 +7,19 @@
 ES6:
 
 ```js
-import { DurationValue } from "@tonaljs/tonal";
+import { DurationValue } from "./../../tonal";
 ```
 
 node:
 
 ```js
-const { DurationValue } = require("@tonaljs/tonal");
+const { DurationValue } = require("goldovsky-tone/tonal");
 ```
 
 single module:
 
 ```js
-import DurationValue from "@tonaljs/duration-value";
+import DurationValue from "./../../duration-value";
 ```
 
 ## API

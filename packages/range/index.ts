@@ -1,5 +1,5 @@
-import { compact, range } from "@tonaljs/collection";
-import { midiToNoteName, toMidi, ToNoteNameOptions } from "@tonaljs/midi";
+import { compact, range } from "./../../collection";
+import { midiToNoteName, toMidi, ToNoteNameOptions } from "./../../midi";
 
 /**
  * Create a numeric range. You supply a list of notes or numbers and it will

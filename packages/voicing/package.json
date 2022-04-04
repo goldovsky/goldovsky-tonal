@@ -1,5 +1,5 @@
 {
-  "name": "@tonaljs/voicing",
+  "name": "goldovsky-tone/voicing",
   "version": "4.6.5",
   "description": "Voicings and Voice Leading for Chords",
   "private": true,
@@ -18,12 +18,12 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@tonaljs/chord": "^4.6.5",
-    "@tonaljs/interval": "^4.6.5",
-    "@tonaljs/note": "^4.6.5",
-    "@tonaljs/range": "^4.6.5",
-    "@tonaljs/voice-leading": "^4.6.5",
-    "@tonaljs/voicing-dictionary": "^4.6.5"
+    "goldovsky-tone/chord": "^4.6.5",
+    "goldovsky-tone/interval": "^4.6.5",
+    "goldovsky-tone/note": "^4.6.5",
+    "goldovsky-tone/range": "^4.6.5",
+    "goldovsky-tone/voice-leading": "^4.6.5",
+    "goldovsky-tone/voicing-dictionary": "^4.6.5"
   },
   "author": "felix91@gmail.com",
   "license": "MIT",

@@ -1,6 +1,6 @@
-import { all } from "@tonaljs/chord-type";
-import { note } from "@tonaljs/core";
-import { modes } from "@tonaljs/pcset";
+import { all } from "./../../chord-type";
+import { note } from "./../../core";
+import { modes } from "./../../pcset";
 
 interface FoundChord {
   readonly weight: number;

@@ -1,6 +1,6 @@
-# @tonaljs/key ![tonal](https://img.shields.io/badge/@tonaljs-key-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/@tonaljs/key.svg?style=flat-square)](https://www.npmjs.com/package/@tonaljs/key)
+# goldovsky-tone/key ![tonal](https://img.shields.io/badge/@tonaljs-key-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/key.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/key)
 
-`@tonaljs/key`
+`goldovsky-tone/key`
 
 Get scale and chords of major and minor keys.
 
@@ -9,13 +9,13 @@ Get scale and chords of major and minor keys.
 ES6:
 
 ```js
-import { Key } from "@tonaljs/tonal";
+import { Key } from "./../../tonal";
 ```
 
 nodejs:
 
 ```js
-const { Key } = require("@tonaljs/tonal");
+const { Key } = require("goldovsky-tone/tonal");
 ```
 
 ## API

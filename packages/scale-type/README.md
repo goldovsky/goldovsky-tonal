@@ -1,21 +1,21 @@
-# @tonaljs/scale-type [![npm version](https://img.shields.io/npm/v/@tonaljs/scale-type.svg?style=flat-square)](https://www.npmjs.com/package/@tonaljs/scale-type)
+# goldovsky-tone/scale-type [![npm version](https://img.shields.io/npm/v/goldovsky-tone/scale-type.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/scale-type)
 
 [![tonal](https://img.shields.io/badge/@tonaljs-scale_dictionary-yellow.svg?style=flat-square)](https://www.npmjs.com/browse/keyword/tonal)
 
-`@tonaljs/scale-type` is a dictionary of musical scales.
+`goldovsky-tone/scale-type` is a dictionary of musical scales.
 
 ## Usage
 
 ES6:
 
 ```js
-import { ScaleType } from "@tonaljs/tonal";
+import { ScaleType } from "./../../tonal";
 ```
 
 nodejs:
 
 ```js
-const { ScaleType } = require("@tonaljs/tonal");
+const { ScaleType } = require("goldovsky-tone/tonal");
 ```
 
 ## API

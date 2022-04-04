@@ -1,6 +1,6 @@
 import DurationValue from "./index";
 
-describe("@tonaljs/duration-value", () => {
+describe("goldovsky-tone/duration-value", () => {
   test("get shorthand", () => {
     expect(DurationValue.get("q")).toEqual({
       empty: false,

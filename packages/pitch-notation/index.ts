@@ -1,4 +1,4 @@
-import { Pitch, InvalidPitch } from "@tonaljs/pitch";
+import { Pitch, InvalidPitch } from "./../../pitch";
 
 export const fillStr = (s: string, n: number) => Array(Math.abs(n) + 1).join(s);
 

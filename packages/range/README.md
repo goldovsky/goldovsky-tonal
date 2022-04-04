@@ -1,25 +1,25 @@
-# @tonaljs/range ![tonal](https://img.shields.io/badge/@tonaljs-range-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/@tonaljs/range.svg?style=flat-square)](https://www.npmjs.com/package/@tonaljs/range)
+# goldovsky-tone/range ![tonal](https://img.shields.io/badge/@tonaljs-range-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/range.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/range)
 
-`@tonaljs/range` is a collection of functions to create note ranges
+`goldovsky-tone/range` is a collection of functions to create note ranges
 
 ## Usage
 
 ES6:
 
 ```js
-import { Range } from "@tonaljs/tonal";
+import { Range } from "./../../tonal";
 ```
 
 nodejs:
 
 ```js
-const { Range } = require("@tonaljs/tonal");
+const { Range } = require("goldovsky-tone/tonal");
 ```
 
 Single module:
 
 ```js
-import Range from "@tonaljs/range";
+import Range from "./../../range";
 ```
 
 ## API

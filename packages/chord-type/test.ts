@@ -1,10 +1,10 @@
 import ChordType from "./index";
-import { interval } from "@tonaljs/core";
+import { interval } from "./../../core";
 import DATA from "./data";
 
 const INTERVALS = DATA.map((d) => d[0]).sort();
 
-describe("@tonaljs/chord-type", () => {
+describe("goldovsky-tone/chord-type", () => {
   test("names", () => {
     // sorted
     expect(ChordType.names().slice(0, 5)).toEqual([

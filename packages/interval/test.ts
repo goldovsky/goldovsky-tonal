@@ -2,7 +2,7 @@ import Interval from "./index";
 
 const $ = (str: string) => str.split(" ");
 
-describe("@tonaljs/interval", () => {
+describe("goldovsky-tone/interval", () => {
   test("properties", () => {
     expect(Interval.get("P4")).toEqual({
       alt: 0,

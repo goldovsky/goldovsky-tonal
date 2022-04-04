@@ -2,7 +2,7 @@ import Pcset from "./index";
 
 const $ = (str: string) => str.split(" ");
 
-describe("@tonaljs/pcset", () => {
+describe("goldovsky-tone/pcset", () => {
   describe("pcset", () => {
     test("from note list", () => {
       expect(Pcset.get(["c", "d", "e"])).toEqual({

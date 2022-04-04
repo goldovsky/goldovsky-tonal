@@ -1,8 +1,8 @@
-# @tonaljs/core ![tonal](https://img.shields.io/badge/@tonaljs-tonal-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/@tonaljs/core.svg?style=flat-square)](https://www.npmjs.com/package/@tonaljs/core)
+# goldovsky-tone/core ![tonal](https://img.shields.io/badge/@tonaljs-tonal-yellow.svg?style=flat-square) [![npm version](https://img.shields.io/npm/v/goldovsky-tone/core.svg?style=flat-square)](https://www.npmjs.com/package/goldovsky-tone/core)
 
 > Parse notes and interval names. Calculate distances and transpositions
 
-`@tonaljs/core` is the core module of the `tonal` music theory library.
+`goldovsky-tone/core` is the core module of the `tonal` music theory library.
 
 Normally you don't use this module directly.
 
@@ -11,7 +11,7 @@ Normally you don't use this module directly.
 Get note and interval properties:
 
 ```js
-import { note, interval } from "@tonaljs/core";
+import { note, interval } from "./../../core";
 note("c4"); // => { name: 'C4', oct: 4, ...}
 interval("p5"); // => { name: '5P', semitones: 7, ...}
 ```
@@ -19,7 +19,7 @@ interval("p5"); // => { name: '5P', semitones: 7, ...}
 Transpose notes and calculate intervals:
 
 ```js
-import { transpose, distance } from "@tonaljs/core";
+import { transpose, distance } from "./../../core";
 transpose("C4", "5P"); // => "G4"
 distance("C4", "G4"); // => "5P"
 ```
@@ -150,7 +150,7 @@ distance("today", "tomorrow"); // => ""
 
 ## Want more?
 
-Take a look to [@tonaljs/note](/packages/note) or [@tonaljs/interval](/packages/interval) modules.
+Take a look to [goldovsky-tone/note](/packages/note) or [goldovsky-tone/interval](/packages/interval) modules.
 
 ## FAQ
 

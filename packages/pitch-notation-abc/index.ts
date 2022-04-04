@@ -4,12 +4,12 @@ import {
   fillStr,
   parser,
   toName,
-} from "@tonaljs/pitch-notation";
+} from "./../../pitch-notation";
 import {
   ParsedScientific,
   parse as parseSci,
   name as nameSci,
-} from "@tonaljs/pitch-notation-scientific";
+} from "./../../pitch-notation-scientific";
 
 // TOKENIZE
 type PitchAbcTokens = PitchTokens & {
